@@ -63,7 +63,7 @@ const CompactServiceCarousel = () => {
             icon: '🔲',
             image: tilingImage,
             description: 'Professional tile installation for floors and walls',
-            priceRange: '₹50 - ₹100/sq.ft',
+            priceRange: 'Get-the-latest-price',
             color: 'from-amber-500 to-yellow-600',
         },
     ];
