@@ -42,7 +42,7 @@ const Header = () => {
                     <Link to="/" className="flex items-center space-x-3 group">
                         <div className="group-hover:scale-110 transition-transform duration-300">
                             <img
-                                src="/src/assets/logo.png"
+                                src="/src/assets/logo.jpg"
                                 alt="Smart Construction & Developers Logo"
                                 className="w-12 h-12 object-contain"
                             />
