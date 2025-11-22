@@ -25,34 +25,27 @@ const Header = () => {
         { name: 'About', path: '/about' },
         { name: 'Services', path: '/services' },
         { name: 'Projects', path: '/projects' },
+        { name: 'Gallery', path: '/gallery' },
         { name: 'Contact', path: '/contact' },
     ];
 
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? 'bg-white shadow-lg py-3'
-                    : 'bg-white/95 backdrop-blur-sm py-4'
+                ? 'bg-white shadow-lg py-3'
+                : 'bg-white/95 backdrop-blur-sm py-4'
                 }`}
         >
             <nav className="container-custom">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-3 group">
-                        <div className="bg-gradient-primary p-2 rounded-lg group-hover:scale-110 transition-transform duration-300">
-                            <svg
-                                className="w-8 h-8 text-white"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                                />
-                            </svg>
+                        <div className="group-hover:scale-110 transition-transform duration-300">
+                            <img
+                                src="/src/assets/logo.png"
+                                alt="Smart Construction & Developers Logo"
+                                className="w-12 h-12 object-contain"
+                            />
                         </div>
                         <div>
                             <h1 className="font-heading font-bold text-xl text-secondary-900 leading-tight">
@@ -69,15 +62,15 @@ const Header = () => {
                                 key={link.path}
                                 to={link.path}
                                 className={`font-medium transition-colors duration-300 relative group ${location.pathname === link.path
-                                        ? 'text-primary-600'
-                                        : 'text-secondary-700 hover:text-primary-600'
+                                    ? 'text-primary-600'
+                                    : 'text-secondary-700 hover:text-primary-600'
                                     }`}
                             >
                                 {link.name}
                                 <span
                                     className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 transform origin-left transition-transform duration-300 ${location.pathname === link.path
-                                            ? 'scale-x-100'
-                                            : 'scale-x-0 group-hover:scale-x-100'
+                                        ? 'scale-x-100'
+                                        : 'scale-x-0 group-hover:scale-x-100'
                                         }`}
                                 />
                             </Link>
@@ -138,8 +131,8 @@ const Header = () => {
                                         key={link.path}
                                         to={link.path}
                                         className={`block py-2 px-4 rounded-lg font-medium transition-colors ${location.pathname === link.path
-                                                ? 'bg-primary-50 text-primary-600'
-                                                : 'text-secondary-700 hover:bg-secondary-50'
+                                            ? 'bg-primary-50 text-primary-600'
+                                            : 'text-secondary-700 hover:bg-secondary-50'
                                             }`}
                                     >
                                         {link.name}

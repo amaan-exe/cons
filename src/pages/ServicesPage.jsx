@@ -1,6 +1,8 @@
 import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
 import Services from '../components/Services';
+import PricingCarousel from '../components/PricingCarousel';
+import ServiceDetailCarousel from '../components/ServiceDetailCarousel';
 
 const ServicesPage = () => {
     const machinery = [
@@ -39,6 +41,29 @@ const ServicesPage = () => {
             </section>
 
             <Services />
+
+            {/* Detailed Service Pricing */}
+            <section className="section-padding bg-white dark:bg-secondary-900">
+                <div className="container-custom">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6 }}
+                        className="text-center mb-12"
+                    >
+                        <span className="inline-block px-4 py-2 bg-primary-100 dark:bg-primary-900 text-primary-600 dark:text-primary-300 rounded-full font-semibold text-sm mb-4">
+                            Detailed Services
+                        </span>
+                        <h2 className="heading-lg mb-4 dark:text-white">Individual Service Pricing</h2>
+                        <p className="text-xl text-secondary-600 dark:text-secondary-300 max-w-3xl mx-auto">
+                            Explore our specialized services with detailed pricing for Putty, Plaster, Painting, POP, Gypsum, Tiling, Flooring & Waterproofing
+                        </p>
+                    </motion.div>
+
+                    <ServiceDetailCarousel />
+                </div>
+            </section>
 
             {/* Machinery & Equipment */}
             <section className="section-padding bg-white">
