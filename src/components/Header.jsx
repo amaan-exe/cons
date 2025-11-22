@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoImage from '../assets/gallery/logo.jpg';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +43,7 @@ const Header = () => {
                     <Link to="/" className="flex items-center space-x-3 group">
                         <div className="group-hover:scale-110 transition-transform duration-300">
                             <img
-                                src="/src/assets/gallery/logo.jpg"
+                                src={logoImage}
                                 alt="Smart Construction & Developers Logo"
                                 className="w-12 h-12 object-contain"
                             />
@@ -142,7 +143,7 @@ const Header = () => {
                                     to="/contact"
                                     className="block btn-primary text-center mt-4"
                                 >
-                                    Get Quote
+                                    Contact Us
                                 </Link>
                             </div>
                         </motion.div>
