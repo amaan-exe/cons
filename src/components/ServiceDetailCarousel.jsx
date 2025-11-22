@@ -17,7 +17,7 @@ const ServiceDetailCarousel = () => {
             icon: '🎨',
             image: puttyImage,
             description: 'Professional wall putty application for smooth, flawless finishes',
-            priceRange: '₹15 - ₹25 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'Wall Putty Application',
                 'Ceiling Putty Work',
@@ -34,7 +34,7 @@ const ServiceDetailCarousel = () => {
             icon: '🏗️',
             image: plasterImage,
             description: 'Expert plastering services for walls and ceilings',
-            priceRange: '₹40 - ₹60 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'Internal Plastering',
                 'External Plastering',
@@ -51,7 +51,7 @@ const ServiceDetailCarousel = () => {
             icon: '🖌️',
             image: paintingImage,
             description: 'Premium painting solutions for interior and exterior',
-            priceRange: '₹18 - ₹35 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'Interior Painting',
                 'Exterior Painting',
@@ -68,7 +68,7 @@ const ServiceDetailCarousel = () => {
             icon: '✨',
             image: popImage,
             description: 'Plaster of Paris false ceiling and decorative work',
-            priceRange: '₹80 - ₹150 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'False Ceiling',
                 'Cornices & Moldings',
@@ -85,7 +85,7 @@ const ServiceDetailCarousel = () => {
             icon: '🏛️',
             image: gypsumImage,
             description: 'Modern gypsum board installation and finishing',
-            priceRange: '₹70 - ₹120 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'Gypsum False Ceiling',
                 'Partition Walls',
@@ -102,7 +102,7 @@ const ServiceDetailCarousel = () => {
             icon: '🔲',
             image: tilingImage,
             description: 'Professional tile installation for floors and walls',
-            priceRange: '₹50 - ₹100 per sq.ft',
+            priceRange: 'Get-the-latest-price',
             features: [
                 'Floor Tiling',
                 'Wall Tiling',

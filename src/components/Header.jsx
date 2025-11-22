@@ -80,7 +80,7 @@ const Header = () => {
                     {/* CTA Button */}
                     <div className="hidden lg:block">
                         <Link to="/contact" className="btn-primary">
-                            Get Quote
+                            Contact Us
                         </Link>
                     </div>
 

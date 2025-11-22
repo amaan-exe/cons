@@ -105,10 +105,6 @@ const About = () => {
                                     <p className="text-primary-100 text-sm mb-1">Established</p>
                                     <p className="font-semibold">22nd February 2022</p>
                                 </div>
-                                <div>
-                                    <p className="text-primary-100 text-sm mb-1">Type</p>
-                                    <p className="font-semibold">Proprietorship</p>
-                                </div>
                             </div>
                         </div>
 

@@ -5,11 +5,89 @@ const GalleryPage = () => {
     const galleryImages = [
         {
             id: 1,
-            src: '/src/assets/services/putty-work.png',
-            alt: 'Putty Work',
-            category: 'Interior'
+            src: 'src/assets/gallery/1.jpeg',
+            alt: 'Construction',
+            category: 'foundation'
         },
-        // Add more images here as they become available
+                {
+            id: 2,
+            src: 'src/assets/gallery/2.jpeg',
+            alt: 'foundation',
+            category: 'foundation'
+        },
+                {
+            id: 3,
+            src: 'src/assets/gallery/3.jpeg',
+            alt: 'design',
+            category: 'exterior design'
+        },
+                {
+            id: 4,
+            src: 'src/assets/gallery/4.jpeg',
+            alt: 'design',
+            category: 'interior design'
+        },
+                {
+            id: 5,
+            src: 'src/assets/gallery/5.jpeg',
+            alt: 'design',
+            category: 'interior design'
+        },
+                {
+            id: 6,
+            src: 'src/assets/gallery/6.jpeg',
+            alt: 'design',
+            category: 'interior design'
+        },
+                {
+            id: 7,
+            src: 'src/assets/gallery/7.jpeg',
+            alt: 'design',
+            category: 'interior design'
+        },
+                {
+            id: 8,
+            src: 'src/assets/gallery/8.jpeg',
+            alt: 'design',
+            category: 'interior design'
+        },
+                {
+            id: 9,
+            src: 'src/assets/gallery/9.jpeg',
+            alt: 'design',
+            category: 'exterior design'
+        }, 
+        {
+            id: 10,
+            src: 'src/assets/project/mahavir.jpg',
+            alt: 'project',
+            category: 'completed project'
+        },
+        {
+            id: 11,
+            src: 'src/assets/project/aiims.jpg',
+            alt: 'project',
+            category: 'completed project'
+        },
+        {
+            id: 12,
+            src: 'src/assets/project/khan.jpg',
+            alt: 'project',
+            category: 'completed project'
+        },
+        {
+            id: 13,
+            src: 'src/assets/project/shafaf.jpg',
+            alt: 'project',
+            category: 'completed project'
+        },
+        {
+            id: 14,
+            src: 'src/assets/project/nephro.jpg',
+            alt: 'project',
+            category: 'completed project'
+        },
+
     ];
 
     return (

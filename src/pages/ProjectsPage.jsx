@@ -10,37 +10,37 @@ const ProjectsPage = () => {
             title: 'Mahavir Cancer Sansthan',
             location: 'Patna',
             category: 'Healthcare',
-            image: completedImage,
+            image: 'src/assets/project/mahavir.jpg',
         },
         {
             title: 'AIIMS Patna',
             location: 'Patna',
             category: 'Healthcare',
-            image: interiorImage,
+            image: 'src/assets/project/aiims.jpg',
         },
         {
             title: 'Bihar State Disaster Management Authority',
             location: 'Patna',
             category: 'Government',
-            image: architecturalImage,
+            image: 'src/assets/project/bihar.jpg',
         },
         {
             title: 'Khanqah Mujeebia',
             location: 'Phulwari Sharif',
             category: 'Religious',
-            image: completedImage,
+            image: 'src/assets/project/khan.jpg',
         },
         {
             title: 'Nephrocare Health Services',
             location: 'Hyderabad',
             category: 'Healthcare',
-            image: interiorImage,
+            image: 'src/assets/project/nephro.jpg',
         },
         {
             title: 'Shafaf Construction Projects',
             location: 'Patna',
             category: 'Commercial',
-            image: architecturalImage,
+            image: 'src/assets/project/shafaf.jpg',
         },
     ];
 

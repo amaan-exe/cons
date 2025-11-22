@@ -65,7 +65,7 @@ const Hero = () => {
                                 to="/contact"
                                 className="btn-primary inline-flex items-center justify-center group"
                             >
-                                Get Free Quote
+                                Contact Us
                                 <svg
                                     className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
                                     fill="none"
