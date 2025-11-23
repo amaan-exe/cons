@@ -43,7 +43,7 @@ const About = () => {
                             About Us
                         </span>
                         <h2 className="heading-lg mb-6">
-                            Building Excellence Since 2022
+                            Building Excellence Since 2018
                         </h2>
                         <div className="space-y-4 text-secondary-600 text-lg leading-relaxed">
                             <p>
@@ -103,7 +103,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <p className="text-primary-100 text-sm mb-1">Established</p>
-                                    <p className="font-semibold">22nd February 2022</p>
+                                    <p className="font-semibold"> 2018</p>
                                 </div>
                             </div>
                         </div>

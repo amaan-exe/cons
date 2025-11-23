@@ -1,21 +1,38 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/hero_construction_site_1763758467050.png';
+import { useState, useEffect } from 'react';
+import khanquahImage from '../assets/khanquah_masjid_construction.png';
+import cranesImage from '../assets/construction_site_cranes.png';
+import buildingImage from '../assets/building_construction_progress.png';
 
 const Hero = () => {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const heroImages = [khanquahImage, cranesImage, buildingImage];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+        }, 5000); // Change image every 5 seconds
+
+        return () => clearInterval(interval);
+    }, [heroImages.length]);
     return (
         <>
             {/* Orange accent bar below header */}
-            <div className="w-full h-2 bg-gradient-to-r from-primary-400 via-primary-500 to-primary-400"></div>
+            <div className="w-full h-0.5 bg-gradient-to-r from-primary-400 via-primary-500 to-primary-400"></div>
 
             <section className="relative min-h-screen flex flex-col overflow-hidden">
                 {/* Background Image with Overlay */}
                 <div className="absolute inset-0 z-0">
-                    <img
-                        src={heroImage}
-                        alt="Smart Construction & Developers - Professional Construction Services in Patna"
-                        className="w-full h-full object-cover"
-                    />
+                    {heroImages.map((image, index) => (
+                        <img
+                            key={index}
+                            src={image}
+                            alt={`Smart Construction & Developers - Professional Construction Services in Patna ${index + 1}`}
+                            className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+                                }`}
+                        />
+                    ))}
                     <div className="absolute inset-0 bg-secondary-900/75" />
                 </div>
 
@@ -34,7 +51,7 @@ const Hero = () => {
                                 transition={{ delay: 0.2, duration: 0.6 }}
                                 className="mb-4 md:mb-8"
                             >
-                                <h2 className="font-heading text-5xl md:text-9xl lg:text-[12rem] font-black tracking-tight leading-none">
+                                <h2 className="font-heading text-4xl sm:text-6xl md:text-9xl lg:text-[12rem] font-black tracking-tight leading-none">
                                     <span className="text-primary-500 drop-shadow-[0_0_30px_rgba(251,146,60,0.5)]">S</span>
                                     <span className="text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">C</span>
                                     <span className="text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">D</span>
@@ -45,7 +62,7 @@ const Hero = () => {
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.3, duration: 0.8 }}
-                                className="font-heading text-2xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight tracking-wide px-4"
+                                className="font-heading text-xl sm:text-3xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight tracking-wide px-4 break-words"
                             >
                                 PERFORMANCE EXCELLENCE
                                 <br />
