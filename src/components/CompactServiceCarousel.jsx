@@ -7,6 +7,7 @@ import paintingImage from '../assets/services/painting.png';
 import popImage from '../assets/services/pop-work.png';
 import gypsumImage from '../assets/services/gypsum-work.png';
 import tilingImage from '../assets/services/tiling-work.png';
+import civilDrawingsImage from '../assets/services/civil-drawings.png';
 
 const CompactServiceCarousel = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -66,6 +67,15 @@ const CompactServiceCarousel = () => {
             priceRange: 'Get-the-latest-price',
             color: 'from-amber-500 to-yellow-600',
         },
+        {
+            id: 7,
+            name: 'Civil Drawings',
+            icon: '📐',
+            image: civilDrawingsImage,
+            description: 'Comprehensive plan, section, and elevation drawings.',
+            priceRange: 'Get-the-latest-price',
+            color: 'from-cyan-500 to-blue-600',
+        },
     ];
 
     const scrollLeft = () => {
@@ -122,6 +132,7 @@ _Inquiry from Smart Construction & Developers Website_`;
                                 <img
                                     src={service.image}
                                     alt={service.name}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-20 group-hover:opacity-30 transition-opacity`}></div>

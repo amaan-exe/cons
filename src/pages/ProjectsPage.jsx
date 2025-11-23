@@ -55,7 +55,7 @@ const ProjectsPage = () => {
             <SEO
                 title="Our Projects"
                 description="Explore Smart Construction & Developers' portfolio - Completed projects including AIIMS Patna, Mahavir Cancer Sansthan, Bihar State Disaster Management Authority & more."
-                keywords="construction projects patna, completed projects bihar, aiims patna construction, healthcare construction, commercial projects patna"
+                keywords="construction projects patna, completed projects bihar, aiims patna construction, healthcare construction, commercial projects patna, residential projects bihar"
             />
 
             {/* Page Header */}
@@ -109,6 +109,7 @@ const ProjectsPage = () => {
                                     <img
                                         src={project.image}
                                         alt={project.title}
+                                        loading="lazy"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-secondary-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

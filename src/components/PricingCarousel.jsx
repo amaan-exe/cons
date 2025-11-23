@@ -101,6 +101,24 @@ const PricingCarousel = () => {
             popular: false,
             color: 'from-purple-500 to-purple-700',
         },
+        {
+            id: 6,
+            name: 'Civil Drawings',
+            category: 'Design Services',
+            price: '₹15,000',
+            duration: 'Starting from',
+            features: [
+                'Floor Plans (2D)',
+                'Elevations (Front/Side)',
+                'Section Drawings',
+                'Structural Details',
+                '3D Front Elevation',
+                'Working Drawings',
+                'Project Timeline: 1 week',
+            ],
+            popular: false,
+            color: 'from-cyan-500 to-blue-600',
+        },
     ];
 
     const nextSlide = () => {

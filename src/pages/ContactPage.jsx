@@ -7,8 +7,8 @@ const ContactPage = () => {
         <>
             <SEO
                 title="Contact Us"
-                description="Get in touch with Smart Construction & Developers. Head Office: AIIMS Road, Phulwari Sharif, Patna. Phone: +91 700 485 9323. Email: smartconstructiondevelopers@gmail.com"
-                keywords="contact smart construction, construction company patna contact, builders patna phone, phulwari sharif construction, patna construction contact"
+                description="Get in touch with Smart Construction & Developers. Head Office: Isapur Road, Phulwari Sharif, Patna. Phone: +91 9308760389. Email: smartconstructiondevelopers@gmail.com"
+                keywords="contact smart construction, construction company patna contact, builders patna phone, phulwari sharif construction, patna construction contact, civil contractor number"
             />
 
             {/* Page Header */}

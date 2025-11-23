@@ -12,8 +12,8 @@ const Home = () => {
         <>
             <SEO
                 title="Home"
-                description="Smart Construction & Developers - Leading construction company in Patna, Bihar. Expert in design, construction, maintenance & engineering. Trusted by AIIMS Patna, Bihar State Disaster Management Authority & more."
-                keywords="construction company patna, builders patna, interior design patna, architecture patna, smart construction, turnkey projects patna, civil work bihar"
+                description="Smart Construction & Developers - Best construction company in Patna, Bihar. Expert civil contractors for residential & commercial projects, house plans, and turnkey construction."
+                keywords="construction company patna, civil contractors bihar, best builders in patna, house plan designer patna, turnkey construction bihar, home renovation patna"
             />
             <Hero />
             <Services />

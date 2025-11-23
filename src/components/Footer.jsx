@@ -18,16 +18,11 @@ const Footer = () => {
                                 className="w-16 h-16 object-contain rounded-lg shadow-lg"
                             />
                             <div>
-                                <h3 className="font-heading font-bold text-2xl leading-tight tracking-wide mb-1">
-                                    <span className="text-primary-500 text-3xl">S</span>
-                                    <span className="text-white">mart </span>
-                                    <span className="text-primary-500 text-3xl">C</span>
-                                    <span className="text-white">onstruction</span>
+                                <h3 className="font-heading font-bold text-2xl leading-tight tracking-wide mb-1 text-white">
+                                    Smart Construction
                                 </h3>
-                                <p className="text-lg text-gray-300 font-medium flex items-center gap-2">
-                                    <span className="text-primary-400">&</span>
-                                    <span className="text-primary-500 text-2xl font-bold">D</span>
-                                    <span className="text-white">evelopers</span>
+                                <p className="text-lg text-gray-300 font-medium">
+                                    & Developers
                                 </p>
                             </div>
                         </div>
@@ -158,10 +153,10 @@ const Footer = () => {
                                     />
                                 </svg>
                                 <a
-                                    href="tel:+919308760389"
+                                    href="tel:+918409640040"
                                     className="text-sm hover:text-primary-400 transition-colors"
                                 >
-                                    +91 9308760389
+                                    +91 8409640040
                                 </a>
                             </li>
                             <li className="flex items-start space-x-3">
@@ -179,12 +174,13 @@ const Footer = () => {
                                     />
                                 </svg>
                                 <a
-                                    href="tel:+918409640040"
+                                    href="tel:+919308760389"
                                     className="text-sm hover:text-primary-400 transition-colors"
                                 >
-                                    +91 8409640040
+                                    +91 9308760389
                                 </a>
                             </li>
+
                             <li className="flex items-start space-x-3">
                                 <svg
                                     className="w-5 h-5 text-primary-400 mt-1 flex-shrink-0"

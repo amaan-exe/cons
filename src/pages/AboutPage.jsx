@@ -7,8 +7,8 @@ const AboutPage = () => {
         <>
             <SEO
                 title="About Us"
-                description="Learn about Smart Construction & Developers - Patna's leading construction company since 2022. Led by Md Sufiyan Raza, we deliver excellence in design, construction & engineering."
-                keywords="about smart construction, construction company patna history, md sufiyan raza, patna builders, construction services bihar"
+                description="Learn about Smart Construction & Developers - Patna's leading construction company since 2018. Led by Md Sufiyan Raza, we deliver excellence in design, construction & engineering."
+                keywords="about smart construction, construction company patna history, md sufiyan raza, patna builders, construction services bihar, civil engineers patna"
             />
 
             {/* Page Header */}
@@ -22,7 +22,7 @@ const AboutPage = () => {
                     >
                         <h1 className="heading-xl mb-6">About Us</h1>
                         <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-                            Building Excellence in North India Since 2022
+                            Building Excellence in North India Since 2018
                         </p>
                     </motion.div>
                 </div>

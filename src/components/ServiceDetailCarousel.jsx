@@ -6,6 +6,7 @@ import paintingImage from '../assets/services/painting.png';
 import popImage from '../assets/services/pop-work.png';
 import gypsumImage from '../assets/services/gypsum-work.png';
 import tilingImage from '../assets/services/tiling-work.png';
+import civilDrawingsImage from '../assets/services/civil-drawings.png';
 
 const ServiceDetailCarousel = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -113,6 +114,23 @@ const ServiceDetailCarousel = () => {
             warranty: '1 year',
             color: 'from-amber-500 to-yellow-600',
         },
+        {
+            id: 7,
+            name: 'Civil Drawings',
+            icon: '📐',
+            image: civilDrawingsImage,
+            description: 'Comprehensive plan, section, and elevation drawings.',
+            priceRange: 'Get-the-latest-price',
+            features: [
+                'Floor Plans',
+                'Elevations',
+                'Section Drawings',
+                'Structural Details',
+            ],
+            duration: '3-5 days',
+            warranty: 'Lifetime Validity',
+            color: 'from-blue-500 to-cyan-600',
+        },
     ];
 
     const scrollLeft = () => {
@@ -142,7 +160,6 @@ const ServiceDetailCarousel = () => {
                         key={service.id}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.1 }}
                         className="flex-shrink-0 w-[400px] md:w-[480px] group"
                     >
                         {/* Card */}
@@ -152,6 +169,7 @@ const ServiceDetailCarousel = () => {
                                 <img
                                     src={service.image}
                                     alt={service.name}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-30`}></div>

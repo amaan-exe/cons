@@ -20,7 +20,7 @@ const ServicesPage = () => {
             <SEO
                 title="Our Services"
                 description="Comprehensive construction services in Patna - Drawing & Designing, Project Execution, Interior Design, Civil Work, Carpentry, Electrical, Painting & more. Professional turnkey solutions."
-                keywords="construction services patna, interior design services, civil work patna, carpentry services, electrical work, painting services, turnkey projects bihar"
+                keywords="construction services patna, interior design services, civil work patna, carpentry services, electrical work, painting services, turnkey projects bihar, house plan approval patna"
             />
 
             {/* Page Header */}
