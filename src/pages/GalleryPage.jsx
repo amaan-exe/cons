@@ -1,89 +1,103 @@
 import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
+import gallery1 from '../assets/gallery/1.jpeg';
+import gallery2 from '../assets/gallery/2.jpeg';
+import gallery3 from '../assets/gallery/3.jpeg';
+import gallery4 from '../assets/gallery/4.jpeg';
+import gallery5 from '../assets/gallery/5.jpeg';
+import gallery6 from '../assets/gallery/6.jpeg';
+import gallery7 from '../assets/gallery/7.jpeg';
+import gallery8 from '../assets/gallery/8.jpeg';
+import gallery9 from '../assets/gallery/9.jpeg';
+import mahavirImage from '../assets/project/mahavir.jpg';
+import aiimsImage from '../assets/project/aiims.jpg';
+import khanImage from '../assets/project/khan.jpg';
+import shafafImage from '../assets/project/shafaf.jpg';
+import nephroImage from '../assets/project/nephro.jpg';
 
 const GalleryPage = () => {
     const galleryImages = [
         {
             id: 1,
-            src: 'src/assets/gallery/1.jpeg',
+            src: gallery1,
             alt: 'Construction',
             category: 'foundation'
         },
-                {
+        {
             id: 2,
-            src: 'src/assets/gallery/2.jpeg',
+            src: gallery2,
             alt: 'foundation',
             category: 'foundation'
         },
-                {
+        {
             id: 3,
-            src: 'src/assets/gallery/3.jpeg',
+            src: gallery3,
             alt: 'design',
             category: 'exterior design'
         },
-                {
+        {
             id: 4,
-            src: 'src/assets/gallery/4.jpeg',
+            src: gallery4,
             alt: 'design',
             category: 'interior design'
         },
-                {
+        {
             id: 5,
-            src: 'src/assets/gallery/5.jpeg',
+            src: gallery5,
             alt: 'design',
             category: 'interior design'
         },
-                {
+        {
             id: 6,
-            src: 'src/assets/gallery/6.jpeg',
+            src: gallery6,
             alt: 'design',
             category: 'interior design'
         },
-                {
+        {
             id: 7,
-            src: 'src/assets/gallery/7.jpeg',
+            src: gallery7,
             alt: 'design',
             category: 'interior design'
         },
-                {
+        {
             id: 8,
-            src: 'src/assets/gallery/8.jpeg',
+            src: gallery8,
             alt: 'design',
             category: 'interior design'
         },
-                {
+        {
             id: 9,
-            src: 'src/assets/gallery/9.jpeg',
+            src: gallery9,
             alt: 'design',
             category: 'exterior design'
-        }, 
+        },
         {
             id: 10,
-            src: 'src/assets/project/mahavir.jpg',
+            src: mahavirImage,
             alt: 'project',
             category: 'completed project'
         },
         {
             id: 11,
-            src: 'src/assets/project/aiims.jpg',
+            src: aiimsImage,
             alt: 'project',
             category: 'completed project'
         },
         {
             id: 12,
-            src: 'src/assets/project/khan.jpg',
+            src: khanImage,
             alt: 'project',
             category: 'completed project'
         },
         {
             id: 13,
-            src: 'src/assets/project/shafaf.jpg',
+            src: shafafImage,
             alt: 'project',
             category: 'completed project'
         },
         {
             id: 14,
-            src: 'src/assets/project/nephro.jpg',
+            src: nephroImage,
             alt: 'project',
             category: 'completed project'
         },

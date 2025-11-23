@@ -3,6 +3,12 @@ import { motion } from 'framer-motion';
 import interiorImage from '../assets/interior_design_modern_1763758486955.png';
 import architecturalImage from '../assets/architectural_planning_1763758506550.png';
 import completedImage from '../assets/completed_building_1763758525596.png';
+import mahavirImage from '../assets/project/mahavir.jpg';
+import aiimsImage from '../assets/project/aiims.jpg';
+import biharImage from '../assets/project/bihar.jpg';
+import khanImage from '../assets/project/khan.jpg';
+import nephroImage from '../assets/project/nephro.jpg';
+import shafafImage from '../assets/project/shafaf.jpg';
 
 const ProjectsPage = () => {
     const completedProjects = [
@@ -10,37 +16,37 @@ const ProjectsPage = () => {
             title: 'Mahavir Cancer Sansthan',
             location: 'Patna',
             category: 'Healthcare',
-            image: 'src/assets/project/mahavir.jpg',
+            image: mahavirImage,
         },
         {
             title: 'AIIMS Patna',
             location: 'Patna',
             category: 'Healthcare',
-            image: 'src/assets/project/aiims.jpg',
+            image: aiimsImage,
         },
         {
             title: 'Bihar State Disaster Management Authority',
             location: 'Patna',
             category: 'Government',
-            image: 'src/assets/project/bihar.jpg',
+            image: biharImage,
         },
         {
             title: 'Khanqah Mujeebia',
             location: 'Phulwari Sharif',
             category: 'Religious',
-            image: 'src/assets/project/khan.jpg',
+            image: khanImage,
         },
         {
             title: 'Nephrocare Health Services',
             location: 'Hyderabad',
             category: 'Healthcare',
-            image: 'src/assets/project/nephro.jpg',
+            image: nephroImage,
         },
         {
             title: 'Shafaf Construction Projects',
             location: 'Patna',
             category: 'Commercial',
-            image: 'src/assets/project/shafaf.jpg',
+            image: shafafImage,
         },
     ];
 
