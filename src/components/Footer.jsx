@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/gallery/logo.jpg';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -10,27 +11,24 @@ const Footer = () => {
                 <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Company Info */}
                     <div className="lg:col-span-2">
-                        <div className="flex items-center space-x-3 mb-6">
-                            <div className="bg-gradient-primary p-2 rounded-lg">
-                                <svg
-                                    className="w-8 h-8 text-white"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                                    />
-                                </svg>
-                            </div>
+                        <div className="flex items-center space-x-4 mb-6">
+                            <img
+                                src={logo}
+                                alt="Smart Construction & Developers Logo"
+                                className="w-16 h-16 object-contain rounded-lg shadow-lg"
+                            />
                             <div>
-                                <h3 className="font-heading font-bold text-xl text-white leading-tight">
-                                    Smart Construction
+                                <h3 className="font-heading font-bold text-2xl leading-tight tracking-wide mb-1">
+                                    <span className="text-primary-500 text-3xl">S</span>
+                                    <span className="text-white">mart </span>
+                                    <span className="text-primary-500 text-3xl">C</span>
+                                    <span className="text-white">onstruction</span>
                                 </h3>
-                                <p className="text-sm text-primary-400 font-medium">& Developers</p>
+                                <p className="text-lg text-gray-300 font-medium flex items-center gap-2">
+                                    <span className="text-primary-400">&</span>
+                                    <span className="text-primary-500 text-2xl font-bold">D</span>
+                                    <span className="text-white">evelopers</span>
+                                </p>
                             </div>
                         </div>
                         <p className="text-gray-400 mb-6 leading-relaxed">
@@ -141,8 +139,8 @@ const Footer = () => {
                                     />
                                 </svg>
                                 <span className="text-sm leading-relaxed">
-                                    S/49, 2ND Floor, Haji Harman Complex, AIIMS Road, Phulwari Sharif,
-                                    Patna-801505, Bihar
+                                    Isapur Road, Near Islamia B.ed College,
+                                    Phulwari Sharif, Patna-801505, Bihar
                                 </span>
                             </li>
                             <li className="flex items-start space-x-3">
@@ -197,9 +195,19 @@ const Footer = () => {
                         <p className="text-sm text-gray-400">
                             © {currentYear} Smart Construction & Developers. All rights reserved.
                         </p>
-                        <p className="text-sm text-gray-400">
-                            Designed & Developed with ❤️ in Patna
-                        </p>
+                        <a
+                            href="https://ignius-olive.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group flex items-center gap-1.5 text-sm transition-transform hover:scale-105"
+                        >
+                            <span className="text-gray-500 group-hover:text-gray-300 transition-colors">Made by</span>
+                            <span className="font-bold bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
+                                Ignius Studios
+                            </span>
+                            <span className="text-gray-500 group-hover:text-gray-300 transition-colors">with</span>
+                            <span className="text-red-500 animate-pulse">❤️</span>
+                        </a>
                     </div>
                 </div>
             </div>

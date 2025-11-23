@@ -62,6 +62,15 @@ const Services = () => {
             title: 'Electrical & Painting',
             description: 'Complete electrical installations, wiring, and professional painting services with quality materials.',
         },
+        {
+            icon: (
+                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                </svg>
+            ),
+            title: 'HVAC Installation & Maintenance',
+            description: 'Professional heating, ventilation, and air conditioning installation and maintenance services for optimal comfort.',
+        },
     ];
 
     const containerVariants = {

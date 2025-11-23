@@ -123,7 +123,7 @@ const About = () => {
                                 <div className="text-secondary-700 font-medium">Satisfaction</div>
                             </div>
                             <div className="bg-secondary-50 rounded-xl p-6 text-center">
-                                <div className="text-4xl font-bold text-primary-600 mb-2">2+</div>
+                                <div className="text-4xl font-bold text-primary-600 mb-2">7+</div>
                                 <div className="text-secondary-700 font-medium">Years</div>
                             </div>
                         </div>
