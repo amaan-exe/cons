@@ -125,7 +125,7 @@ const CareersPage = () => {
                                 Training @ <span className="text-primary-600">SCD</span>
                             </h2>
                             <p className="text-lg text-secondary-700 dark:text-secondary-300 leading-relaxed">
-                                As part of ACES ongoing professional development and training programs, our staff has the opportunity to attend training sessions conducted by ACES employees and outside experts. Training is designed to keep staff current with new technologies and provide for professional growth and business skills development.
+                                As part of SCD ongoing professional development and training programs, our staff has the opportunity to attend training sessions conducted by SCD employees and outside experts. Training is designed to keep staff current with new technologies and provide for professional growth and business skills development.
                             </p>
                         </div>
                     </motion.div>
@@ -147,7 +147,7 @@ const CareersPage = () => {
                             </p>
                             <div className="mt-8">
                                 <p className="text-xl font-semibold text-secondary-900 dark:text-white mb-4">
-                                    Interested in working at ACES?
+                                    Interested in working at SCD?
                                 </p>
                                 <a
                                     href="mailto:contact@smartconstruction.com"
