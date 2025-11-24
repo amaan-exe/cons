@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smartconstructiondevelopers.com/sitemap.xml

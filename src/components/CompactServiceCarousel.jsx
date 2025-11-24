@@ -8,6 +8,8 @@ import popImage from '../assets/services/pop-work.png';
 import gypsumImage from '../assets/services/gypsum-work.png';
 import tilingImage from '../assets/services/tiling-work.png';
 import civilDrawingsImage from '../assets/services/civil-drawings.png';
+import retrofittingImage from '../assets/services/retrofitting.png';
+import concreteTestingImage from '../assets/services/concrete-testing.jpg';
 
 const CompactServiceCarousel = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -75,6 +77,24 @@ const CompactServiceCarousel = () => {
             description: 'Comprehensive plan, section, and elevation drawings.',
             priceRange: 'Get-the-latest-price',
             color: 'from-cyan-500 to-blue-600',
+        },
+        {
+            id: 8,
+            name: 'Retrofitting of Old Buildings',
+            icon: '🔄',
+            image: retrofittingImage,
+            description: 'Structural strengthening and modernization of existing buildings',
+            priceRange: 'Get-the-latest-price',
+            color: 'from-green-500 to-emerald-600',
+        },
+        {
+            id: 9,
+            name: 'Testing of Concrete',
+            icon: '🧪',
+            image: concreteTestingImage,
+            description: 'Comprehensive non-destructive testing (NDT) and quality assurance',
+            priceRange: 'Get-the-latest-price',
+            color: 'from-gray-500 to-slate-600',
         },
     ];
 

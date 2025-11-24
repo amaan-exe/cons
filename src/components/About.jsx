@@ -98,7 +98,7 @@ const About = () => {
                             </h3>
                             <div className="space-y-4">
                                 <div>
-                                    <p className="text-primary-100 text-sm mb-1">Managing Proprietor</p>
+                                    <p className="text-primary-100 text-sm mb-1">Director</p>
                                     <p className="font-semibold text-lg">Md Sufiyan Raza</p>
                                 </div>
                                 <div>
@@ -111,11 +111,11 @@ const About = () => {
                         {/* Stats Grid */}
                         <div className="grid grid-cols-2 gap-6">
                             <div className="bg-secondary-50 rounded-xl p-6 text-center">
-                                <div className="text-4xl font-bold text-primary-600 mb-2">50+</div>
+                                <div className="text-4xl font-bold text-primary-600 mb-2">100+</div>
                                 <div className="text-secondary-700 font-medium">Projects</div>
                             </div>
                             <div className="bg-secondary-50 rounded-xl p-6 text-center">
-                                <div className="text-4xl font-bold text-primary-600 mb-2">8+</div>
+                                <div className="text-4xl font-bold text-primary-600 mb-2">15+</div>
                                 <div className="text-secondary-700 font-medium">Major Clients</div>
                             </div>
                             <div className="bg-secondary-50 rounded-xl p-6 text-center">

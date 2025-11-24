@@ -14,6 +14,14 @@ import aiimsImage from '../assets/project/aiims.jpg';
 import khanImage from '../assets/project/khan.jpg';
 import shafafImage from '../assets/project/shafaf.jpg';
 import nephroImage from '../assets/project/nephro.jpg';
+import galleryConcreteTesting1 from '../assets/gallery/gallery-concrete-testing-1.png';
+import galleryRetrofitting1 from '../assets/gallery/gallery-retrofitting-1.png';
+import galleryLabTesting1 from '../assets/gallery/gallery-lab-testing-1.png';
+import galleryLabTesting2 from '../assets/gallery/gallery-lab-testing-2.png';
+import floor from '../assets/gallery/image.png';
+import retro from '../assets/gallery/retro.png';
+import rewardCertificate from '../assets/gallery/reward-certificate.png';
+
 
 const GalleryPage = () => {
     const galleryImages = [
@@ -101,6 +109,42 @@ const GalleryPage = () => {
             alt: 'project',
             category: 'completed project'
         },
+        {
+            id: 15,
+            src: galleryConcreteTesting1,
+            alt: 'Concrete Temperature Testing',
+            category: 'Quality Control'
+        },
+        {
+            id: 16,
+            src: galleryRetrofitting1,
+            alt: 'Structural Reinforcement',
+            category: 'Retrofitting'
+        },
+        {
+            id: 17,
+            src: galleryLabTesting1,
+            alt: 'Permeability Test',
+            category: 'Lab Testing'
+        },
+        {
+            id: 18,
+            src: galleryLabTesting2,
+            alt: 'Rapid Chloride Permeability Test',
+            category: 'Lab Testing'
+        },
+        {
+            id: 19,
+            src: floor,
+            alt: 'Floor',
+            category: 'Floor Plan'
+        },
+        {
+            id: 20,
+            src: retro,
+            alt: 'Retrofitting',
+            category: 'Retrofitting'
+        },
 
     ];
 
@@ -154,6 +198,46 @@ const GalleryPage = () => {
                             </p>
                         </div>
                     )}
+                </div>
+
+                {/* Rewards Section */}
+                <div className="bg-white dark:bg-secondary-800 py-16">
+                    <div className="container-custom">
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="text-center mb-12"
+                        >
+                            <h2 className="heading-lg mb-4 text-secondary-900 dark:text-white">Our Rewards</h2>
+                            <p className="text-xl text-secondary-600 dark:text-secondary-300 max-w-2xl mx-auto">
+                                Recognition of our commitment to excellence and quality
+                            </p>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            className="max-w-4xl mx-auto"
+                        >
+                            <div className="group bg-secondary-50 dark:bg-secondary-900 rounded-2xl p-4 shadow-xl transition-transform hover:scale-[1.02]">
+                                <img
+                                    src={rewardCertificate}
+                                    alt="Award Certificate"
+                                    className="w-full h-auto rounded-xl"
+                                />
+                                <div className="mt-6 text-center bg-white dark:bg-secondary-800 rounded-xl p-6 shadow-lg border-2 border-primary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <p className="text-3xl font-bold text-primary-600 dark:text-primary-400">
+                                        IIT PATNA Certificate
+                                    </p>
+                                    <p className="text-sm text-secondary-600 dark:text-secondary-400 mt-2">
+                                        Hover to view
+                                    </p>
+                                </div>
+                            </div>
+                        </motion.div>
+                    </div>
                 </div>
             </div>
         </>

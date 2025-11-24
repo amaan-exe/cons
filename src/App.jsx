@@ -3,6 +3,8 @@ import { useEffect, lazy, Suspense } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
+import ErrorBoundary from './components/ErrorBoundary';
+import ScrollToTopButton from './components/ScrollToTop';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -11,6 +13,7 @@ const ServicesPage = lazy(() => import('./pages/ServicesPage'));
 const ProjectsPage = lazy(() => import('./pages/ProjectsPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
+const CareersPage = lazy(() => import('./pages/CareersPage'));
 
 // Loading component
 const PageLoader = () => (
@@ -19,12 +22,12 @@ const PageLoader = () => (
   </div>
 );
 
-// Scroll to top component
+// Scroll to top on route change
 function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [pathname]);
 
   return null;
@@ -32,24 +35,28 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <ScrollToTop />
-      <Header />
-      <main className="flex-grow">
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-        </Suspense>
-      </main>
-      <Footer />
-      <DarkModeToggle />
-    </div>
+    <ErrorBoundary>
+      <div className="min-h-screen flex flex-col">
+        <ScrollToTop />
+        <Header />
+        <main className="flex-grow">
+          <Suspense fallback={<PageLoader />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
+              <Route path="/careers" element={<CareersPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Routes>
+          </Suspense>
+        </main>
+        <Footer />
+        <DarkModeToggle />
+        <ScrollToTopButton />
+      </div>
+    </ErrorBoundary>
   );
 }
 
