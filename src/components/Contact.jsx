@@ -40,7 +40,7 @@ ${formData.message}
 _Sent from Smart Construction & Developers Website_`;
 
         // WhatsApp number (your business number)
-        const whatsappNumber = '917004859323'; // Your number without + or spaces
+        const whatsappNumber = '918409640040'; // Your number without + or spaces
 
         // Create WhatsApp URL
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -369,11 +369,11 @@ _Sent from Smart Construction & Developers Website_`;
                                     </a>
 
                                     {/* LinkedIn */}
-                                    
+
 
                                     {/* WhatsApp */}
                                     <a
-                                        href="https://wa.me/917004859323"
+                                        href="https://wa.me/918409640040"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all hover:scale-110"
