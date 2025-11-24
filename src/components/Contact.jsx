@@ -344,7 +344,7 @@ _Sent from Smart Construction & Developers Website_`;
                                 <div className="flex gap-4">
                                     {/* Facebook */}
                                     <a
-                                        href="https://www.facebook.com/md.sufiyan.503"
+                                        href="https://www.facebook.com/people/Smart-Construction-Developers/61584188069084/?name=xhp_nt__fb__action__open_user"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all hover:scale-110"

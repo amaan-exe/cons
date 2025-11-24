@@ -99,7 +99,7 @@ const About = () => {
                             <div className="space-y-4">
                                 <div>
                                     <p className="text-primary-100 text-sm mb-1">Director</p>
-                                    <p className="font-semibold text-lg">Md Sufiyan Raza</p>
+                                    <p className="font-semibold text-lg">Er. Md Sufiyan Raza</p>
                                 </div>
                                 <div>
                                     <p className="text-primary-100 text-sm mb-1">Established</p>
