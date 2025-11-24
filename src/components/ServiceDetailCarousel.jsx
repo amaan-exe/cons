@@ -137,7 +137,7 @@ const ServiceDetailCarousel = () => {
             id: 8,
             name: 'Retrofitting of Old Buildings',
             icon: '🔄',
-            image: retrofittingImage,
+            image: concreteTestingImage,
             description: 'Structural strengthening and modernization of existing buildings',
             priceRange: 'Get-the-latest-price',
             features: [
@@ -154,7 +154,7 @@ const ServiceDetailCarousel = () => {
             id: 9,
             name: 'Testing of Concrete',
             icon: '🧪',
-            image: concreteTestingImage,
+            image: retrofittingImage,
             description: 'Comprehensive non-destructive testing (NDT) and quality assurance',
             priceRange: 'Get-the-latest-price',
             features: [
