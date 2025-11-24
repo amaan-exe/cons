@@ -5,7 +5,7 @@ const CareersPage = () => {
     const benefits = [
         {
             title: 'Professional Growth',
-            description: 'Opportunities to work on diverse projects across the Middle East and local markets.',
+            description: 'Opportunities to work on diverse projects across the India & Middle East and local markets.',
             icon: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
@@ -75,7 +75,7 @@ const CareersPage = () => {
                             </h2>
                             <div className="space-y-6 text-lg text-secondary-600 dark:text-secondary-300 leading-relaxed">
                                 <p>
-                                    <span className="font-bold text-primary-600">SCD</span> is committed to recruiting and retaining qualified, motivated staff who can support our clients effectively on projects throughout the Middle East.
+                                    <span className="font-bold text-primary-600">SCD</span> is committed to recruiting and retaining qualified, motivated staff who can support our clients effectively on projects throughout the India & Middle East.
                                 </p>
                                 <p>
                                     We are involved in a wide array of projects, large and small, in various markets. Our extensive portfolio provides numerous opportunities for our staff to improve their skills and to meet new challenges.
@@ -143,7 +143,8 @@ const CareersPage = () => {
                                 Internship
                             </h2>
                             <p className="text-lg text-secondary-700 dark:text-secondary-300 leading-relaxed mb-6">
-                                <span className="font-bold text-primary-600">SCD</span> provides internship opportunities for international and local students in various locations across Middle East and Gulf Region, allowing them to gain hands-on professional experience and skills in various fields.
+                                <span className="font-bold text-primary-600">SCD</span> provides internship opportunities for international and local students in various locations across India , 
+                                Middle East and Gulf Region, allowing them to gain hands-on professional experience and skills in various fields.
                             </p>
                             <div className="mt-8">
                                 <p className="text-xl font-semibold text-secondary-900 dark:text-white mb-4">
