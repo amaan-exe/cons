@@ -96,7 +96,7 @@ const Hero = () => {
                             <div className="flex gap-4 justify-center">
                                 {/* Facebook */}
                                 <a
-                                    href="https://www.facebook.com/md.sufiyan.503"
+                                    href="https://www.facebook.com/people/Smart-Construction-Developers/61584188069084/?name=xhp_nt__fb__action__open_user"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all hover:scale-110 text-white"
