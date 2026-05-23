@@ -213,14 +213,14 @@ const Footer = () => {
                             © {currentYear} Smart Construction & Developers. All rights reserved.
                         </p>
                         <a
-                            href="https://ignius-olive.vercel.app/"
+                            href="https://igniusstudios.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex items-center gap-1.5 text-sm transition-transform hover:scale-105"
                         >
                             <span className="text-gray-500 group-hover:text-gray-300 transition-colors">Made by</span>
                             <span className="font-bold bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                                Ignius Studios
+                                IGNIUS STUDIOS
                             </span>
                             <span className="text-gray-500 group-hover:text-gray-300 transition-colors">with</span>
                             <span className="text-red-500 animate-pulse">❤️</span>
